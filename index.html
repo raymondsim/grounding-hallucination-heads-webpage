@@ -16,7 +16,7 @@ a{color:inherit}button{font:inherit}a:focus-visible,button:focus-visible{outline
 header{text-align:left;padding:32px 3px 27px}
 h1{font-size:clamp(31px,4.1vw,48px);line-height:1.14;letter-spacing:-.045em;margin:0 0 13px;font-weight:790}
 .subtitle{margin:0;color:#62548b;font-size:clamp(19px,2.45vw,28px);line-height:1.39;letter-spacing:-.018em}
-.authors{margin:23px 0 0;color:#635589;font-size:clamp(16px,1.7vw,20px);line-height:1.55}.authors strong{color:#6340cc}
+.authors{margin:23px 0 0;color:#635589;font-size:clamp(16px,1.7vw,20px);line-height:1.55}.authors strong{color:#6340cc}.authors sup,.affiliations sup{font-size:.66em;line-height:0;vertical-align:super}.affiliations{margin:7px 0 0;color:#635589;font-size:clamp(15px,1.6vw,19px);line-height:1.55;font-style:italic}
 .links{display:grid;gap:11px}
 .card{width:100%;display:flex;align-items:center;gap:18px;padding:17px 20px;min-height:102px;border:1px solid #dcd2fb;border-radius:17px;background:#ffffffab;color:#22124f;text-align:left;text-decoration:none;box-shadow:0 2px 13px #6242a306;transition:background .16s,border-color .16s,transform .16s}
 .card:hover,.card:focus-within{background:#fff;border-color:#bdaaf5}.card:active{transform:translateY(1px)}
@@ -32,7 +32,7 @@ footer{border-top:1px solid #d9ccff;margin-top:25px;padding-top:17px;color:#7566
 .page{width:min(calc(100% - 28px),480px);padding:22px 0 17px}
 .announcement{gap:9px;padding:11px;border-radius:11px;font-size:12.5px;letter-spacing:-.015em}.announcement svg{width:19px;height:19px}
 header{padding:27px 3px 25px}h1{font-size:clamp(27px,7.2vw,34px);line-height:1.18;margin-bottom:13px}
-.subtitle{font-size:clamp(17px,4.45vw,20px);line-height:1.37}.authors{font-size:14px;line-height:1.7;margin-top:17px}
+.subtitle{font-size:clamp(17px,4.45vw,20px);line-height:1.37}.authors{font-size:14px;line-height:1.7;margin-top:17px}.affiliations{font-size:13px;line-height:1.6;margin-top:5px}
 .links{gap:9px}.card{gap:14px;padding:13px 15px;min-height:83px;border-radius:14px}
 .icon{width:48px;height:48px}.icon svg{width:26px;height:26px}
 .name{font-size:18px;margin-bottom:3px}.detail,.emails a{font-size:14px;line-height:1.48}
@@ -51,7 +51,8 @@ header{padding:27px 3px 25px}h1{font-size:clamp(27px,7.2vw,34px);line-height:1.1
 <header>
 <h1>The Model Knows Where to Look</h1>
 <p class="subtitle">Visual-Grounding-Guided Head Suppression for Mitigating Hallucination in LVLMs</p>
-<p class="authors"><strong>Mong Yuan Sim</strong> · Wei Emma Zhang · Xiang Dai · Byron Fang</p>
+<p class="authors"><strong>Mong Yuan Sim<sup>1,2</sup></strong> · Wei Emma Zhang<sup>1</sup> · Xiang Dai<sup>2</sup> · Byron Fang<sup>3</sup></p>
+<p class="affiliations"><sup>1</sup> Adelaide University, <sup>2</sup> CSIRO, <sup>3</sup> Oracle</p>
 </header>
 <nav class="links" aria-label="Paper and contact links">
 <!-- Change only this first button's href to paper.pdf after uploading the PDF. -->
