@@ -11,8 +11,8 @@
 *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 12% 2%,#fbf7ff,transparent 52%),radial-gradient(ellipse at 85% 88%,#e6ddff,transparent 50%),#f1ecff;-webkit-font-smoothing:antialiased}
 a{color:inherit}button{font:inherit}a:focus-visible,button:focus-visible{outline:3px solid #6340cc;outline-offset:3px}
 .page{width:min(calc(100% - 48px),980px);margin:auto;padding:42px 0 26px}
-.announcement{display:flex;align-items:center;gap:14px;padding:13px 18px;border:1px solid #f3d37f;border-radius:13px;background:#fff6dc;box-shadow:0 3px 10px #573c7909;font-size:16px;font-weight:500;white-space:nowrap}
-.announcement svg{color:#be890e;width:25px;height:25px;flex:none}.mobile-only{display:none}
+.announcement{display:flex;align-items:center;gap:14px;padding:13px 18px;border:1px solid #f3d37f;border-radius:13px;background:#fff6dc;box-shadow:0 3px 10px #573c7909;font-size:16px;font-weight:500;line-height:1.45;white-space:normal}
+.announcement svg{color:#be890e;width:25px;height:25px;flex:none}.announcement-copy{min-width:0;overflow-wrap:break-word}
 header{text-align:left;padding:32px 3px 27px}
 h1{font-size:clamp(31px,4.1vw,48px);line-height:1.14;letter-spacing:-.045em;margin:0 0 13px;font-weight:790}
 .subtitle{margin:0;color:#62548b;font-size:clamp(19px,2.45vw,28px);line-height:1.39;letter-spacing:-.018em}
@@ -30,7 +30,7 @@ h1{font-size:clamp(31px,4.1vw,48px);line-height:1.14;letter-spacing:-.045em;marg
 footer{border-top:1px solid #d9ccff;margin-top:25px;padding-top:17px;color:#75669f;text-align:center;font-size:15px;line-height:1.6}
 @media(max-width:600px){
 .page{width:min(calc(100% - 28px),480px);padding:22px 0 17px}
-.announcement{gap:9px;padding:11px;border-radius:11px;font-size:12.5px;letter-spacing:-.015em}.announcement svg{width:19px;height:19px}.desktop-only{display:none}.mobile-only{display:inline}
+.announcement{gap:9px;padding:11px;border-radius:11px;font-size:12.5px;letter-spacing:-.015em}.announcement svg{width:19px;height:19px}
 header{padding:27px 3px 25px}h1{font-size:clamp(27px,7.2vw,34px);line-height:1.18;margin-bottom:13px}
 .subtitle{font-size:clamp(17px,4.45vw,20px);line-height:1.37}.authors{font-size:14px;line-height:1.7;margin-top:17px}
 .links{gap:9px}.card{gap:14px;padding:13px 15px;min-height:83px;border-radius:14px}
@@ -44,9 +44,9 @@ header{padding:27px 3px 25px}h1{font-size:clamp(27px,7.2vw,34px);line-height:1.1
 </head>
 <body>
 <main class="page">
-<div class="announcement" role="note" aria-label="Actively seeking industry research internships. Interests: multimodal learning, foundation models and medical AI.">
+<div class="announcement" role="note" aria-label="Actively seeking industry research internship opportunities. I'm interested in multimodal learning, foundation models and medical AI.">
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v4a2 2 0 0 0 2 2h2l2 4h2l-1.3-5.3L18 18V6l-7.3 3.3H6a2 2 0 0 0-2 2Z"/><path d="M20 9l2-1M20 15l2 1M20 12h2"/></svg>
-<span class="desktop-only">Actively seeking industry research internship opportunities.  I'm interested in multimodal learning, foundation models and medical AI.</span><span class="mobile-only">Seeking industry research internships.</span>
+<span class="announcement-copy">Actively seeking industry research internship opportunities. I'm interested in multimodal learning, foundation models and medical AI.</span>
 </div>
 <header>
 <h1>The Model Knows Where to Look</h1>
